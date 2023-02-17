@@ -2,11 +2,12 @@
 
 # Project SetUp
 
-1.Clone the project
-2.Then npm install 
-3.create a .env file and set the port no of your choice
-'Port:3000'
-4.Next,in the config folder in config.json provide ur db name and password like
+- Clone the project
+- Then npm install 
+- create a .env file and set the port no of your choice like 
+- 'Port:3000'
+- Next,in the config folder in config.json provide ur db name and password like
+```
 {
   "development": {
     "username": Your db name,
@@ -16,3 +17,4 @@
     "dialect": "mysql"
   },
 }
+````
